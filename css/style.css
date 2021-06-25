@@ -14,6 +14,10 @@
     display: inline-block;
 }
 
+.product-img {
+    position: relative;
+}
+
 .product-img img {
     width: 100%;
     display: block;
@@ -26,4 +30,31 @@
 
 .original-price {
     text-decoration: line-through;
+}
+
+.heart {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    font-size: 30px;
+    background-color: white;
+    padding: 10px;
+}
+
+.label {
+    position: absolute;
+    bottom: 20px;
+}
+
+.label span {
+    padding: 5px 3px;
+    color: white;
+}
+
+.discount {
+    background-color: red;
+}
+
+.sosten {
+    background-color: green;
 }
