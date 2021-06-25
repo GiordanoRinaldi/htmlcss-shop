@@ -3,3 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.product {
+    width: calc(100% / 3 );
+    display: inline-block;
+}
